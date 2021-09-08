@@ -19,8 +19,6 @@ And you're done! KDE wallet will start storing all your credentials.
 
 ## Troubleshooting & Bugs
 
-The only 
-
 At the moment, I believe this program works well right out of the box. Follow the
 Set-up Guide (above) and all should be well. It all is not well, let me know! I'll update this section
 with troubleshooting tips as I find out about common problems.
