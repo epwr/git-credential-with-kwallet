@@ -6,7 +6,7 @@ A git credential.helper program that stores your credentials in the KDE wallet (
 
 This set-up guide assumes that you are running a Linux distro with git and the KDE wallet installed, and that you've installed Ruby (ie. that `/bin/env ruby` finds something). It shouldn't matter which version of Ruby you have, so long as it's decently modern.
 
-If you don't have Ruby installed, then you should install it (eg. by using `sudo snap instal rbenv`). I recommend installing through rbenv instead of through your default package manager because if you start using Ruby for anything else, rbenv will make managing different versions of Ruby much easier.
+If you don't have Ruby installed, then you should install it (eg. by using `sudo snap install rbenv`). I recommend installing through rbenv instead of through your default package manager because if you start using Ruby for anything else, rbenv will make managing different versions of Ruby much easier.
 
 *Step 1:* Download the file `git-credential-with-kwallet`, and put it somewhere in your PATH.
 
