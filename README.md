@@ -8,11 +8,11 @@ This set-up guide assumes that you are running a Linux distro with git and the K
 
 If you don't have Ruby installed, then you should install it (eg. by using `sudo snap install rbenv`). I recommend installing through rbenv instead of through your default package manager because if you start using Ruby for anything else, rbenv will make managing different versions of Ruby much easier.
 
-*Step 1:* Download the file `git-credential-with-kwallet`, and put it somewhere in your PATH.
+*Step 1:* Download the file `git-credential-with-kwallet`, and put it somewhere in your PATH (I like to use `~/.local/bin`).
 
 *Step 2:* Tell git about the program using the following command:
 
-    `git config --global credential.helper with-kwallet`
+    git config --global credential.helper with-kwallet
 
 And you're done! KDE wallet will start storing all your credentials.
 
