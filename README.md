@@ -20,4 +20,4 @@ And you're done! KDE wallet will start storing all your credentials.
 
 At the moment, I believe this program works well right out of the box, but I'm sure that will change. Please let me know (by opening an issue) if it isn't working for you!
 
-One issue that has come up, and might again, is that the qdbus executable has different names on different systems (currently this program tries `qdbus` and `qdbus-qt5`). If you want to try another executable, you can add it to the QDBUS_EXECUTABLES array. If that solves it, please let me know (or create a PR with your change)!
+The one issue that has come up a couple times, and is likely to again, is that the qdbus executable has different names on different systems. If you want to try another executable, you can add it to the QDBUS_EXECUTABLES array. If that solves it, please let me know (or create a PR with your change)!
